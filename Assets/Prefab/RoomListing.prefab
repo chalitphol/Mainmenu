@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114640276706847060}
   - component: {fileID: 114344859535397974}
   - component: {fileID: 114128056568759542}
+  - component: {fileID: 114875621983228386}
   m_Layer: 5
   m_Name: RoomListing
   m_TagString: Untagged
@@ -167,6 +168,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114875621983228386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1134560147206730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9cf14b05d79cd4baeb13313a5a9926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _roomNameText: {fileID: 114139483773097348}
 --- !u!222 &222362379810629322
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -186,7 +199,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1134560147206730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 429.7, y: 328.2, z: 0}
+  m_LocalPosition: {x: 428, y: 328, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224999771101881290}
@@ -195,8 +208,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 429.7, y: 328.2}
-  m_SizeDelta: {x: 467.5, y: 58.8}
+  m_AnchoredPosition: {x: 428, y: 328}
+  m_SizeDelta: {x: 460, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224999771101881290
 RectTransform:
